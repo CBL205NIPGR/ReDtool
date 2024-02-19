@@ -61,13 +61,13 @@ parser.add_argument("-o", "--outputfile", dest="outputfile", metavar="Output_fil
                      help = "Enter the output file name, output can be either tab-delimited text, XML, and ods")
 
 parser.add_argument("-s","--sequence",dest="sequence", metavar="Sequence", type = str, default= "no",
-                     help = "Give if the sequence is requried")
+                     help = "For the sequence of digested fragments")
 
 parser.add_argument("-rc","--rev_comp",dest="compliment",metavar="reverse Complimentary", type=str,default="no",
-                     help= "Enter if need to check for complimentary")
+                     help= "If digestion of reverse complement required ")
 
 parser.add_argument("-c","--plasmid",dest="circular",metavar="circular", type = str, default= "no",
-                     help = "Enter the yes to check for plasmid")
+                     help = "If input DNA is circular")
 
 parser.add_argument("-v","--version", action="version", version="ReDtool v1.0")
 
