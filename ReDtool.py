@@ -49,6 +49,7 @@ def complementry(seq):
 parser = argparse.ArgumentParser(
                     prog='ReDtool.py',
                     description='Identifying restriction sites in Linear and Circular DNA',
+                    usage='ReDtool.py [-h] -i Input_file -r restriction_site -o Output_file [-s yes/no] [-rc yes/no] [-c yes/no] [-v]'
                     epilog='For liner digestion last position will be "0"')
 
 parser.add_argument("-i","--inputfile", dest="inputfile", metavar="Input_file",type = str , required=True,
