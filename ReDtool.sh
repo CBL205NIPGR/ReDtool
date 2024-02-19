@@ -22,6 +22,7 @@ for f_file in "$in_dir"/*.fa; do		  #based on the extension of file change the e
 	echo "Output file:"$o_file
 
 	#Running the ReDtool
-
-	python3 ReDtool.py -i "$f_file" -r "$res_site" -o "$o_file" -rc "$reverse_compliment" -c "$circular" -s "$sequence"
+ 
+	#if python doesn't work can be changed to python3
+	python ReDtool.py -i "$f_file" -r "$res_site" -o "$o_file" -rc "$reverse_compliment" -c "$circular" -s "$sequence"
 done
