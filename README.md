@@ -37,7 +37,7 @@ python ReDtool.py -i Test_input.fasta -r c^catgg -o Test_output_hexa.txt -s yes
 Test_output_tetra.txt is a basic output file which includes recognition site psoition, corresponding frangment length and sequence, Test_output_tetra.txt is a hexa cutter restriciton site output. 
 
 ## Usage of the ReDtool.sh
-It is used to atuomate the running of the 'ReDtool.py', in ReDtool.sh user needs to open and change input and output directories, recognisiton site and it is metioned in the script where the changes can be done based on inputs. Windows users cannot use this with either installing ubuntu terminal or using virtual box.
+It is used to atuomate the running of the 'ReDtool.py', in ReDtool.sh user needs to open and change input and output directories, recognisiton site and it is metioned in the script where the changes can be done based on inputs. Windows users can use this with either installing ubuntu terminal or using virtual box.
 ### 1. open the ReDtool.sh
 ```
 nano ReDtool.sh
