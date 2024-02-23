@@ -28,6 +28,7 @@ User should provide three mandatory inputs to the tool, these are:
 python ReDtool.py -i Test_input.fasta -r ^gatc -o Test_output_tetra.txt -s yes
 ```
 With restriction enzyme ^ symbol indicates the recognisiton site.
+
 For hexa cutter
 ```
 python ReDtool.py -i Test_input.fasta -r c^catgg -o Test_output_hexa.txt -s yes 
